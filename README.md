@@ -13,4 +13,4 @@ The Lessons part has a title, some text and a link (or button) for exercises.
 ## Exercises part
 The Exercises part has buttons, input textfields and a check button.
 <br>
-# Now get ready to learn and practice!
+### Now get ready to learn and practice!

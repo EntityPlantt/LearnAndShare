@@ -1,0 +1,51 @@
+@import url("uni.css");
+body, html {
+	font-family: var(--font);
+	width: 100%;
+	height: 100%;
+	overflow-x: hidden;
+	text-align: center;
+	margin: 0;
+	padding: 0;
+	color: var(--theme-text-color-2);
+	background-color: var(--theme-color-2);
+}
+div#title {
+	height: 30%;
+	width: 100%;
+	background-color: var(--theme-color-1);
+	color: var(--theme-text-color-1);
+	position: absolute;
+	top: 0;
+	user-select: none;
+}
+div#title h1 {
+	font-size: 10vh;
+	margin-bottom: 0;
+}
+div#title p {
+	font-size: 2.5vh;
+}
+body h2 {
+	top: 30%;
+	position: relative;
+	font-size: 5vh;
+}
+body ul#topics {
+	background-color: var(--theme-color-1);
+	color: var(--theme-text-color-1);
+	position: relative;
+	top: 35%;
+	padding-left: 0;
+	user-select: none;
+}
+body ul#topics li {
+	transition: background-color 0.6s, color 0.6s;
+	list-style: none;
+	padding: 1vh 0 1vh 0;
+	font-size: 3vh;
+}
+body ul#topics li:hover {
+	background-color: var(--theme-color-2);
+	color: var(--theme-text-color-2);
+}

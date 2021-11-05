@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Lakki+Reddy&display=swap');
+:root {
+	--theme-color-1: #5A0;
+	--theme-color-2: mistyrose;
+	--theme-text-color-1: white;
+	--theme-text-color-2: black;
+	--font: "Lakki Reddy", cursive;
+}
+a.hidden {
+	text-decoration: none;
+	color: inherit;
+}
