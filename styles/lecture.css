@@ -1,0 +1,33 @@
+@import url("uni.css");
+div#article {
+	font-size: 17.5px;
+	font-family: sans-serif;
+	text-align: left;
+	padding: 0 5vw 0 5vw;
+	word-spacing: 4px;
+}
+div#article div#title {
+	font-size: 50px;
+	font-family: var(--font);
+	background-color: var(--theme-color-1);
+	color: var(--theme-text-color-1);
+	top: 0;
+	left: 0;
+	width: 90%;
+	height: 10%;
+	padding: 0 5% 0 5%;
+	cursor: pointer;
+	user-select: none;
+}
+div#exercise {
+	font-size: 25px;
+	background-color: var(--theme-color-1);
+	color: var(--theme-text-color-1);
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	height: 30px;
+	margin: 0;
+	padding: 10px 0 10px 0;
+}
