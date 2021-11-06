@@ -24,4 +24,5 @@ onloadFunc.push(function(event) {
 	`;
 	exerciseLink = document.querySelector("link[rel=exercise]");
 	if (exerciseLink != null) exerciseLink.remove();
+	document.title += " - LearnAndShare";
 });
