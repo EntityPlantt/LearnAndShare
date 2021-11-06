@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Console logging</title>
+	<link rel="stylesheet" type="text/css" href="../../styles/lecture.css">
+	<script type="text/javascript" src="../../js/lib.js"></script>
+	<script type="text/javascript" src="../../js/make/lecture.js"></script>
+	<script type="text/javascript" src="../../js/highlight.js"></script>
+	<link rel="prev-lec" href="what-is-javascript.html">
+	<link rel="exercise" href="lets-work-on-logging.html">
+</head>
+<body>
+	<p>
+		Let's start with Javascript.
+		<br>
+		The simplest way to see what we are doing, or see what we have done and the errors, is by logging. Logging can be done by writing text in the console.
+		<br>
+		The console is a way to log things, make errors, do warnings and things like that.
+		<br>
+		You can open it by <b>clicking on the F12 button</b>.
+	</p>
+	<p>
+		<i>But, how can we write inside the console?</i>
+		<br>
+		We can do this by the <code class="language-js">console.log()</code> method.
+	</p>
+	<p>
+		The <code class="language-js">console.log()</code> method is a method of the class <code class="language-js">console</code>.
+	</p>
+	<p>
+		It needs <b>one parameter</b>: that's anything. You can put something like <code class="language-js">undefined</code>, a number, a string, or even <code class="language-js">null</code>!
+		<br>
+		Here's an example code:
+		<pre><code>
+// Logging text
+console.log("Hello world!");
+console.log("I am writing inside the console.");
+
+// Logging numbers
+console.log(123);
+console.log(20 * 20);
+
+// Logging special values
+console.log(undefined);
+console.log(Infinity);
+console.log(null);
+
+// Logging objects
+// When logging objects, you can browse them in the console (like a hierarchy)
+console.log(console);
+console.log(window);
+console.log(document);
+console.log({firstname: "Mihoko", lastname: "Ferguson"});
+console.log(["banana", "mango", "papaya", "orange"]);
+
+// Logging function return values
+console.log(parseInt("492101"));
+console.log(parseFloat("69.420"));
+console.log("Hello world!".toUpperCase());
+console.log(console.log(console.log("Here console.log will be called multiple times in a line!")));
+		</code></pre>
+		So now, I think you understand this.
+	</p>
+	<p>
+		<i>Are we done now? No, there's more...</i>
+		<br>
+		We have <code class="language-js">console.error</code> and <code class="language-js">console.warning</code>, too!
+		<br>
+		But, we won't go in details, because now, you can go to the exercises!
+	</p>
+</body>
+</html>

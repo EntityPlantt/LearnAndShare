@@ -7,7 +7,7 @@ onloadFunc.push(function(event) {
 		lectureNode.innerText = elm.innerText;
 		lectureNode.onclick = function(e) {
 			var a = document.createElement("a");
-			a.href = this.innerText.toLowerCase().replaceAll(" ", "-").replaceAll("?", "") + ".html";
+			a.href = elm.getAttribute("href") + ".html";
 			a.click();
 		}
 		document.body.appendChild(lectureNode);
@@ -19,7 +19,7 @@ onloadFunc.push(function(event) {
 		exerciseNode.innerText = elm.innerText;
 		exerciseNode.onclick = function(e) {
 			var a = document.createElement("a");
-			a.href = this.innerText.toLowerCase().replaceAll(" ", "-").replaceAll("?", "") + ".html";
+			a.href = elm.getAttribute("href") + ".html";
 			a.click();
 		}
 		document.body.appendChild(exerciseNode);

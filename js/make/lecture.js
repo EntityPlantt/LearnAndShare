@@ -23,4 +23,8 @@ onloadFunc.push(function(event) {
 	${nextLecture}
 	`;
 	document.title += " - LearnAndShare";
+	document.querySelectorAll("code").forEach(function(elm) {
+		hljs.highlightElement(elm);
+	});
+	hljs.highlightAll();
 });
