@@ -2,11 +2,10 @@
 div.lecture, div.exercise {
 	width: 100%;
 	height: 7.5vh;
-	border: solid 1px var(--theme-text-color-1);
 	border-radius: 2.5px;
 	background-color: var(--theme-color-1);
 	color: var(--theme-text-color-1);
-	transition: color 0.6s, background-color 0.6s, border-color 0.6s;
+	transition: color 0.6s, background-color 0.6s;
 	position: relative;
 	user-select: none;
 	margin: 0;
@@ -17,7 +16,6 @@ div.lecture, div.exercise {
 div.lecture:hover, div.exercise:hover {
 	background-color: var(--theme-color-2);
 	color: var(--theme-text-color-2);
-	border-color: var(--theme-text-color-2);
 }
 div.lecture:after {
 	content: " - Lecture";

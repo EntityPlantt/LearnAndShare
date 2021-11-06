@@ -20,6 +20,7 @@ onloadFunc.push(function(event) {
 		${document.body.innerHTML}
 	</div>
 	${exerciseLink}
+	<div id="make-longer"></div>
 	`;
 	exerciseLink = document.querySelector("link[rel=exercise]");
 	if (exerciseLink != null) exerciseLink.remove();
