@@ -7,7 +7,7 @@ onloadFunc.push(function(event) {
 	if (previousLecture == null) {previousLecture = ``;}
 	else {previousLecture = `<div id="prev-lecture"><a class="hidden" href="${previousLecture.getAttribute("href")}">Previous</a></div>`;}
 	if (nextLecture == null) {nextLecture = ``;}
-	else {nextLecture = `<div id="next-lecture"><a class="hidden" href="${nextLecture.getAttribute("href")}>Next</a></div>`;}
+	else {nextLecture = `<div id="next-lecture"><a class="hidden" href="${nextLecture.getAttribute("href")}">Next</a></div>`;}
 	document.body.innerHTML = `
 	<div id="article">
 		<div id="title" onclick="
