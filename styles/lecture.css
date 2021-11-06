@@ -31,6 +31,21 @@ div#exercise {
 	margin: 0;
 	padding: 10px 0 10px 0;
 }
+div#prev-lecture, div#next-lecture {
+	font-size: 25px;
+	width: 10vw;
+	height: 50px;
+	position: fixed;
+	bottom: 0;
+	color: var(--theme-text-color-1);
+	background-color: var(--theme-color-1);
+}
+div#prev-lecture {
+	left: 0;
+}
+div#next-lecture {
+	right: 0;
+}
 div#make-longer {
 	margin: 0;
 	padding: 0;
